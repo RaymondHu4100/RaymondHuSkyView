@@ -8,8 +8,8 @@ public class SkyViewRunner
 	    double[] scan2 = {0.3, 0.7, 0.8, 0.4, 1.4, 1.1};
 	    SkyView sv1 = new SkyView(4, 3, scan);
 	    SkyView sv2 = new SkyView(3, 2, scan2);
-	    System.out.println(sv1);
-	    System.out.println(sv2);
+	    // System.out.println(sv1); Left out because it prints com.company.SkyView@lc53fd30 which is obviously not a valid line
+	    // System.out.println(sv2); Left out because it prints com.company.SkyView@50cbc42f which is obviously not a valid line
 	    System.out.println("Average 1: "+sv1.getAverage(1, 3, 0, 2));
 	    System.out.println("Average 2: "+sv2.getAverage(0, 1, 0, 1));
     }
